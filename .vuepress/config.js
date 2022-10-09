@@ -1,4 +1,3 @@
-// const vars = require('./.env.json');
 const vars="";
 
 module.exports = {
