@@ -9,7 +9,7 @@
     <b-collapse is-nav id="nav_collapse">
       <b-navbar-nav>
         <b-nav-item :href="$withBase('/create/')">Ethereum</b-nav-item>
-        <b-nav-item :href="$withBase('/create/?network=Optimism_mainnet')">Optimism</b-nav-item>
+        <b-nav-item :href="$withBase('/create/?network=optimism_mainnet')">Optimism</b-nav-item>
         <b-nav-item :href="$withBase('/create/?network=etc_mainnet')">Ethereum Classic</b-nav-item>
         <b-nav-item :href="$withBase('/create/?network=bsc_mainnet')">Binance Smart Chain</b-nav-item>
         <b-nav-item :href="$withBase('/create/?network=gnosis_mainnet')">Gnosis</b-nav-item>
@@ -25,13 +25,7 @@
         </b-nav-item>
       </b-navbar-nav>
       <b-navbar-nav class="ml-auto">
-        <b-nav-item-dropdown text="Create Token" right>
-          <b-dropdown-item disabled>Network</b-dropdown-item>
-          <b-dropdown-item target="_blank" href="https://www.smartcontracts.tools/token-generator/ethereum/">Ethereum</b-dropdown-item>
-          <b-dropdown-item target="_blank" href="https://www.smartcontracts.tools/token-generator/bsc/">Binance Smart Chain</b-dropdown-item>
-          <b-dropdown-item target="_blank" href="https://www.smartcontracts.tools/token-generator/polygon/">Polygon</b-dropdown-item>
-        </b-nav-item-dropdown>
-        <b-nav-item target="_blank" href="https://vittominacori.medium.com/how-to-add-token-to-metamask-fba11854f6cd">
+        <b-nav-item target="_blank" href="https://dogelonindex.org">
           <small>About</small>
         </b-nav-item>
       </b-navbar-nav>

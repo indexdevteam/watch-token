@@ -8,7 +8,7 @@
     <b-col v-if="!loading && !loaded" lg="8" offset-lg="2">
       <b-card bg-variant="light">
         <blockquote>Some error occurred</blockquote>
-        <router-link to="/create/">Try adding your token</router-link>
+        <router-link to="/create/">Add the token</router-link>
       </b-card>
     </b-col>
     <b-col v-if="loaded" lg="8" offset-lg="2" class="mt-2 p-0">
@@ -20,12 +20,8 @@
           </b-col>
           <b-col sm="10">
             <h3>View {{ token.name }} on SmartContracts Tools.</h3>
-            <h4>Try the new Token Watcher.</h4>
           </b-col>
         </b-row>
-        <template #footer>
-          Want to try new features? We created <b>SmartContracts Tools</b> at <b>NONCEPT.</b>
-        </template>
       </b-card>
       </b-link>
 
@@ -71,7 +67,7 @@
               <b-form-input
                   id="tokenLink"
                   name="tokenLink"
-                  placeholder="Your token link"
+                  placeholder="Token link"
                   size="lg"
                   readonly
                   v-model.trim="share.shortLink">
