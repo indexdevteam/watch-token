@@ -22,7 +22,7 @@ Enter your ERC20 or BEP20 Token details, create a Widget and share it with your 
 
 ## Try it
 
-https://vittominacori.github.io/watch-token/
+https://indexdevteam.github.io/watch-token/
 
 ## License
 
