@@ -39,7 +39,7 @@
         return this.loaded && !this.embedded;
       },
       bodyClass () {
-        return this.loadLayout ? 'aqua-gradient' : '';
+        return this.loadLayout ? 'chill-gradient' : '';
       },
     },
   };

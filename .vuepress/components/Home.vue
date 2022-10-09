@@ -10,13 +10,13 @@
         </template>
         <hr class="my-4">
         <p>
-          Widget used to generate MetaMask links for the website.<br>
-          It can add any Token to DApp browsers or MetaMask both on Ethereum, Optimism, Ethereum Classic, Binance Smart Chain, Polygon Network, KuCoin Community Chain, Dogechain, Arbitrum, Avalanche or Harmony.
+          Widget used to generate MetaMask links for <a href="https://www.dogelonindex.org">Dogelon Index</a> website.<br>
+          It can add any ERC-20 Token to DApp browsers or MetaMask both on Ethereum, Optimism, Ethereum Classic, Binance Smart Chain, Polygon Network, KuCoin Community Chain, Dogechain, Arbitrum, Avalanche or Harmony.
         </p>
         <b-button size="sm"
-                  variant="info"
+                  variant="blue"
                   class="mt-2 text-uppercase p-3 btn-sm-block"
-                  to="/create/">
+                  to="/create/?network=mainnet">
           Ethereum
         </b-button>
         <b-button size="sm"

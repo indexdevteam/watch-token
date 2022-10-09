@@ -24,6 +24,20 @@ Enter your ERC20 or BEP20 Token details, create a Widget and share it with your 
 
 https://indexdevteam.github.io/watch-token/
 
+## Deploy
+
+```
+$ npm install .
+$ npm run-script build
+$ npm run-script deploy
+```
+
+## Debug
+
+```
+$ npm run-script dev
+```
+
 ## License
 
 Code released under the [MIT License](./LICENSE).
