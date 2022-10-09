@@ -5,12 +5,12 @@
         xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
-        <loc>https://vittominacori.github.io/watch-token/</loc>
+        <loc>https://indexdeveteam.github.io/watch-token/</loc>
         <changefreq>weekly</changefreq>
         <priority>1.00</priority>
     </url>
     <url>
-        <loc>https://vittominacori.github.io/watch-token/create/</loc>
+        <loc>https://indexdevteam.github.io/watch-token/create/</loc>
         <changefreq>weekly</changefreq>
         <priority>1.00</priority>
     </url>
