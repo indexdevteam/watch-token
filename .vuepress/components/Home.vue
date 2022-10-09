@@ -71,7 +71,7 @@
                   variant="violet"
                   class="mt-2 text-uppercase p-3 btn-sm-block"
                   to="/create/?network=harmony_mainnet">
-          Harmony 
+          Harmony
         </b-button>
       </b-jumbotron>
     </b-col>
