@@ -11,7 +11,7 @@ meta:
     - property: og:description
       content: Create a Widget for your ERC20 or BEP20 Token and share it with your users. Add your Token to DApp browsers or MetaMask both on Ethereum, Optimism, Ethereum Classic, Binance Smart Chain, Gnosis, Polygon Network, KuCoin Community Chain, Dogechain, Arbitrum, Avalanche or Harmony.
     - property: og:url
-      content: https://vittominacori.github.io/watch-token/
+      content: https://indexdevteam.github.io/watch-token/
 ---
 
 # WatchToken
