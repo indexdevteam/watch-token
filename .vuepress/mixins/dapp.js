@@ -197,6 +197,7 @@ export default {
           'Polygon',
           'KuCoin Community Chain',
 	  'Dogechain',
+	  'Arbitrum',
 	  'Avalanche',
 	  'Harmony',
         ],
