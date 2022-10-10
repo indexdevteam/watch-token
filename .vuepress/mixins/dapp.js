@@ -191,6 +191,7 @@ export default {
         blockchains: [
           'Ethereum',
 	  'Optimism',
+	  'Ethereum Classic',
           'Binance Smart Chain',
           'Gnosis',
           'Polygon',
