@@ -1,7 +1,7 @@
 const vars = require('./.env.json');
 
 module.exports = {
-  description: 'Create a Widget for your ERC20 or BEP20 Token and share it with your users. Add your Token to DApp browsers or MetaMask both on Ethereum, Optimism, Ethereum Classic, Binance Smart Chain, Polygon Network, KuCoin Community Chain, Harmony, Gnosis Network, or Dogechain.',
+  description: 'Create a Widget for any ERC20 or BEP20 Token and share it with users. Add the Token to DApp browsers or MetaMask both on Ethereum, Optimism, Ethereum Classic, Binance Smart Chain, Polygon Network, KuCoin Community Chain, Harmony, Gnosis Network, or Dogechain.',
   base: '/watch-token/',
   plugins: [
     ['@vuepress/google-analytics', {
@@ -19,7 +19,7 @@ module.exports = {
     ['meta', { property: 'og:image', content: 'https://indexdevteam.github.io/watch-token/assets/images/watch-token.png' }], // eslint-disable-line max-len
     ['meta', { property: 'twitter:card', content: 'summary_large_image' }],
     ['meta', { property: 'twitter:image', content: 'https://indexdevteam.github.io/watch-token/assets/images/watch-token.png' }], // eslint-disable-line max-len
-    ['meta', { property: 'twitter:title', content: 'WatchToken | Create a Widget for your ERC20 or BEP20 Token' }],
+    ['meta', { property: 'twitter:title', content: 'WatchToken | Create a Widget for any ERC20 or BEP20 Token' }],
     ['script', { src: '/assets/js/web3.min.js' }],
     ['script',
       {
