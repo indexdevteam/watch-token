@@ -28,6 +28,7 @@ https://indexdevteam.github.io/watch-token/
 
 ```
 $ npm install .
+$ cp .vuepress/.env.json.example .vuepress/.env.json
 $ npm run-script build
 $ npm run-script deploy
 ```

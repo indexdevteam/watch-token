@@ -41,7 +41,7 @@
                   variant="warning"
                   class="mt-2 text-uppercase p-3 btn-sm-block"
                   to="/create/?network=gnosis_mainnet">
-          Gnosis 
+          Gnosis
         </b-button>
         <b-button size="sm"
                   variant="violet"
