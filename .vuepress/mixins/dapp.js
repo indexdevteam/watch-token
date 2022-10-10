@@ -170,7 +170,7 @@ export default {
             name: 'Arbitrum',
           },
           avalanche_mainnet: {
-            blockchain: 'Avalanche Mainnet C-Chain',
+            blockchain: 'Avalanche',
             tokenType: 'ERC20',
             web3Provider: 'https://api.avax.network/ext/bc/C/rpc',
             explorerLink: 'https://snowtrace.io/',
