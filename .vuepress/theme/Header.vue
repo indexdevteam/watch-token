@@ -25,7 +25,7 @@
         </b-nav-item>
       </b-navbar-nav>
       <b-navbar-nav class="ml-auto">
-        <b-nav-item target="_blank" href="https://dogelonindex.org">
+        <b-nav-item target="_blank" href="https://www.dogelonindex.org">
           <small>About</small>
         </b-nav-item>
       </b-navbar-nav>

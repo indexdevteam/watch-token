@@ -38,6 +38,12 @@
           Binance Smart Chain
         </b-button>
         <b-button size="sm"
+                  variant="warning"
+                  class="mt-2 text-uppercase p-3 btn-sm-block"
+                  to="/create/?network=gnosis_mainnet">
+          Gnosis 
+        </b-button>
+        <b-button size="sm"
                   variant="violet"
                   class="mt-2 text-uppercase p-3 btn-sm-block"
                   to="/create/?network=polygon_mainnet">
