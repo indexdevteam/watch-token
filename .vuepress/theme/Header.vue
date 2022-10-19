@@ -16,6 +16,7 @@
         <b-nav-item :href="$withBase('/create/?network=polygon_mainnet')">Polygon</b-nav-item>
         <b-nav-item :href="$withBase('/create/?network=kcc_mainnet')">KCC</b-nav-item>
         <b-nav-item :href="$withBase('/create/?network=dogechain_mainnet')">Dogechain</b-nav-item>
+        <b-nav-item :href="$withBase('/create/?network=ethpow_mainnet')">Ethereum (PoW)</b-nav-item>
         <b-nav-item :href="$withBase('/create/?network=arbitrum_mainnet')">Arbitrum</b-nav-item>
         <b-nav-item :href="$withBase('/create/?network=avalanche_mainnet')">Avalanche</b-nav-item>
         <b-nav-item :href="$withBase('/create/?network=harmony_mainnet')">Harmony</b-nav-item>
