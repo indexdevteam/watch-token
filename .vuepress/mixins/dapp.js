@@ -208,6 +208,7 @@ export default {
           'KuCoin Community Chain',
 	  'Dogechain',
 	  'EthereumPoW',
+	  'Arbitrum',
 	  'Avalanche',
 	  'Harmony',
         ],

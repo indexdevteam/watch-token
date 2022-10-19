@@ -18,7 +18,7 @@ meta:
 
 Create a Widget for any ERC20 or BEP20 Token. Add the Token to DApp browsers or MetaMask both on Ethereum, Optimism, Ethereum Classic, Binance Smart Chain, Gnosis, Polygon Network, KuCoin Community Chain, Dogechain, Ethereum (PoW), Arbitrum, Avalanche or Harmony.
 
-Enter the ERC20 or BEP20 Token details, create a Widget and share it with users.
+Enter any ERC20 or BEP20 Token details, create a Widget and share it with users.
 
 ## Try it
 

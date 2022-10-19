@@ -1,11 +1,11 @@
 <template>
   <b-row class="p-0 pt-4">
     <b-col v-if="!loaded && !loading" lg="8" offset-lg="2">
-      <b-card bg-variant="light" :title="`Create your ${tokenType} Token Widget`">
+      <b-card bg-variant="light" :title="`Create any ${tokenType} Token Widget`">
         <p>
-          Create a Widget for your <b>{{ tokenType }}</b>
+          Create a Widget for any <b>{{ tokenType }}</b>
           Token on <b>{{ blockchain }}</b>.<br>
-          Enter your Token details, create a Widget and share it with your users.
+          Enter Token details, create a Widget and share it with users.
         </p>
         <b-form @submit.prevent="getToken" class="mt-3">
           <b-row>
