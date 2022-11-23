@@ -152,7 +152,7 @@
               <b-form-group
                   label="Logo (optional)"
                   label-for="tokenLogo"
-                  description="Suggested: a square SVG or PNG with transparent background (recommended greater than 64x64px).">
+                  description="Suggested: a square SVG or PNG with transparent background.">
                 <b-form-input
                     id="tokenLogo"
                     placeholder="Your token logo link"

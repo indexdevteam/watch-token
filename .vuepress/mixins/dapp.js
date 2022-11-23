@@ -1,3 +1,4 @@
+/* eslint-disable camelcase */
 import config from '../config';
 import TokenABI from '../abi/TokenABI.json';
 
@@ -17,22 +18,21 @@ export default {
           1: 'mainnet',
           3: 'ropsten',
           4: 'rinkeby',
-          10: 'optimism_mainnet',
           5: 'goerli',
           10: 'optimism_mainnet',
           42: 'kovan',
           56: 'bsc_mainnet',
-	  61: 'etc_mainnet',
+          61: 'etc_mainnet',
           97: 'bsc_testnet',
           100: 'gnosis_mainnet',
           137: 'polygon_mainnet',
           321: 'kcc_mainnet',
-	  2000: 'dogechain_mainnet',
+          2000: 'dogechain_mainnet',
           10001: 'ethpow_mainnet',
           42161: 'arbitrum_mainnet',
           43114: 'avalanche_mainnet',
           80001: 'polygon_mumbai',
-	  1666600000: 'harmony_mainnet',
+          1666600000: 'harmony_mainnet',
         },
         list: {
           mainnet: {
@@ -200,17 +200,17 @@ export default {
         },
         blockchains: [
           'Ethereum',
-	  'Optimism',
-	  'Ethereum Classic',
+          'Optimism',
+          'Ethereum Classic',
           'Binance Smart Chain',
           'Gnosis',
           'Polygon',
           'KuCoin Community Chain',
-	  'Dogechain',
-	  'EthereumPoW',
-	  'Arbitrum',
-	  'Avalanche',
-	  'Harmony',
+          'Dogechain',
+          'EthereumPoW',
+          'Arbitrum',
+          'Avalanche',
+          'Harmony',
         ],
       },
       contracts: {
