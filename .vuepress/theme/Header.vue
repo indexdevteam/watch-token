@@ -15,6 +15,8 @@
         <b-nav-item :href="$withBase('/create/?network=bsc_mainnet')">Binance Smart Chain</b-nav-item>
         <b-nav-item :href="$withBase('/create/?network=gnosis_mainnet')">Gnosis</b-nav-item>
         <b-nav-item :href="$withBase('/create/?network=polygon_mainnet')">Polygon</b-nav-item>
+
+        <b-nav-item :href="$withBase('/create/?network=polygon_zkevm_mainnet')">Polygon zkEVM</b-nav-item>
         <b-nav-item :href="$withBase('/create/?network=kcc_mainnet')">KCC</b-nav-item>
         <b-nav-item :href="$withBase('/create/?network=dogechain_mainnet')">Dogechain</b-nav-item>
         <b-nav-item :href="$withBase('/create/?network=ethpow_mainnet')">Ethereum (PoW)</b-nav-item>
