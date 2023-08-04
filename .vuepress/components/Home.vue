@@ -13,8 +13,8 @@
           Widget used to generate MetaMask links for
           <a href="https://www.dogelonindex.org">Dogelon Index</a> website.<br>
           It can add any ERC-20 Token to DApp browsers or MetaMask both on Ethereum,
-          Optimism, Ethereum Classic, Binance Smart Chain, Polygon Network,
-          KuCoin Community Chain, Dogechain, Ethereum (PoW), Arbitrum, Avalanche or Harmony.
+          Optimism, Ethereum Classic, Binance Smart Chain, Polygon Network, Polygon zkEVM
+	  Network, KuCoin Community Chain, Dogechain, Ethereum (PoW), Arbitrum, Avalanche or Harmony.
         </p>
         <b-button size="sm"
                   variant="blue"
@@ -51,6 +51,12 @@
                   class="mt-2 text-uppercase p-3 btn-sm-block"
                   to="/create/?network=polygon_mainnet">
           Polygon
+        </b-button>
+        <b-button size="sm"
+                  variant="violet"
+                  class="mt-2 text-uppercase p-3 btn-sm-block"
+                  to="/create/?network=polygon_zkevm_mainnet">
+          Polygon zkEVM
         </b-button>
         <b-button size="sm"
                   variant="violet"

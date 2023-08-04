@@ -1,7 +1,7 @@
 const vars = require('./.env.json');
 
 module.exports = {
-  description: 'Create a Widget for any ERC20 or BEP20 token to share with users. Add the Token to DApp browsers or MetaMask on Ethereum, Optimism, Ethereum Classic, Binance Smart Chain, Gnosis Network, Polygon Network, KuCoin Community Chain, Ethereum (PoW), Dogechain, Arbitrum, Avalanche, or Harmony.',
+  description: 'Create a Widget for any ERC20 or BEP20 token to share with users. Add the Token to DApp browsers or MetaMask on Ethereum, Optimism, Ethereum Classic, Binance Smart Chain, Gnosis Network, Polygon Network, Polygon zkEVM Network, KuCoin Community Chain, Ethereum (PoW), Dogechain, Arbitrum, Avalanche, or Harmony.',
   base: '/watch-token/',
   plugins: [
     ['@vuepress/google-analytics', {
@@ -19,7 +19,7 @@ module.exports = {
     ['meta', { property: 'og:image', content: 'https://indexdevteam.github.io/watch-token/assets/images/watch-token.png' }], // eslint-disable-line max-len
     ['meta', { property: 'twitter:card', content: 'summary_large_image' }],
     ['meta', { property: 'twitter:image', content: 'https://indexdevteam.github.io/watch-token/assets/images/watch-token.png' }], // eslint-disable-line max-len
-    ['meta', { property: 'twitter:title', content: 'WatchToken | Create a Widget for any ERC20 or BEP20 Token' }],
+    ['meta', { property: 'twitter:title', content: 'WatchToken | Create a Widget for any *RC20 Token' }],
     ['script', { src: '/assets/js/web3.min.js' }],
     ['script',
       {

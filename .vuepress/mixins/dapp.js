@@ -27,6 +27,7 @@ export default {
           100: 'gnosis_mainnet',
           137: 'polygon_mainnet',
           321: 'kcc_mainnet',
+          1101: 'polygon_zkevm_mainnet',
           2000: 'dogechain_mainnet',
           10001: 'ethpow_mainnet',
           42161: 'arbitrum_mainnet',
@@ -134,6 +135,15 @@ export default {
             id: 137,
             name: 'Polygon Mainnet',
           },
+          polygon_zkevm_mainnet: { // eslint-disable-line camelcase
+            blockchain: 'Polygon zkEVM',
+            tokenType: 'ERC20',
+            web3Provider: 'https://zkevm-rpc.com',
+            explorerLink: 'https://zkevm.polygonscan.com/',
+            explorerName: 'Polygon zkEVM Blockchain Explorer',
+            id: 1101,
+            name: 'Polygon zkEVM Mainnet',
+          },
           kcc_mainnet: { // eslint-disable-line camelcase
             blockchain: 'KuCoin Community Chain',
             tokenType: 'ERC20',
@@ -205,6 +215,7 @@ export default {
           'Binance Smart Chain',
           'Gnosis',
           'Polygon',
+	  'Polygon zkEVM'
           'KuCoin Community Chain',
           'Dogechain',
           'EthereumPoW',
